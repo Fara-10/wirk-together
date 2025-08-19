@@ -1,19 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}", "./*.{html,js}"],
   theme: {
     extend: {
-       fontFamily: {
+      fontFamily: {
         ubuntu: ['Ubuntu', 'sans-serif'],
       },
-       fontFamily: {
+      fontFamily: {
         sans: ['Ubuntu', 'sans-serif'], // заменяем дефолтный sans
       },
     },
   },
-       screens:{
-      "mb":{max:"510px"}
-    },
+  screens: {
+    "mb": { max: "510px" }
+  },
   plugins: [],
 }
 
