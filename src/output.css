@@ -606,6 +606,10 @@ body {
   margin: 0px;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-\[100px\] {
   margin-left: 100px;
   margin-right: 100px;
@@ -959,6 +963,10 @@ body {
 
 .w-\[9px\] {
   width: 9px;
+}
+
+.max-w-\[1400px\] {
+  max-width: 1400px;
 }
 
 .cursor-pointer {
@@ -1413,10 +1421,6 @@ body {
   padding-top: 70px;
 }
 
-.pt-\[80px\] {
-  padding-top: 80px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1563,11 +1567,6 @@ body {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
-}
-
-.text-red-800 {
-  --tw-text-opacity: 1;
-  color: rgb(153 27 27 / var(--tw-text-opacity, 1));
 }
 
 .text-white {
